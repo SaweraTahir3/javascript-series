@@ -3,7 +3,7 @@
 //  Two type of Datatypes
 
 // . Primitive Datatype
-// . non Primitive Datatypes
+// . non Primitive Datatype
 
 // This is primitive datatype:
 // 1. string
@@ -14,6 +14,8 @@
 // 6. symbols
 // 7. BigInt
 
+// . non Primitive Datatype
+//  object
 
 "use strick";
 
@@ -24,7 +26,6 @@ let saveData = null;       //null
 let declearData = undefined; //undefined
 let bigNumbers = 1234747558855555390920200202022n; //bigInt
 let sym = Symbol("This is my symbol value"); //Symbol
-
 
 console.table([name, age, UseCodeSpaces, saveData, declearData, bigNumbers, sym])
 
@@ -43,7 +44,6 @@ console.log(typeof (sym));
 
 
 //Conversion  & examples of datatypes .
-
 
 // . string value change into number
 let marks = "98";
@@ -152,8 +152,8 @@ let change = Number(notnumber)
 console.log(change);
 console.log(typeof (change));
 
-
-/* -------------------------------------*********************--------------------------------------------*/
+// Note : non-primitive-datatype next class Topic
+/* -------------------------------------------*****************************************------------------------------------------------------*/
 
 
 
